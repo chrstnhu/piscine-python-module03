@@ -3,7 +3,7 @@ import sys
 import os
 
 def error_exit():
-    print("Usage: python main.py filepath='../ressources/solar_system_census.csv' ncentroid=4 max_iter=30")
+    print("Usage: python main.py filepath='../resources/solar_system_census.csv' ncentroid=4 max_iter=30")
     exit()
 
 def check_path(argv):
